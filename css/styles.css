@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html,
 body {
   height: 100%;
-  background-color: lightgrey; }
+  background-color: lightgrey;
+}
 
 h1,
 h2,
@@ -15,7 +17,8 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+}
 
 nav {
   max-width: 980px;
@@ -26,43 +29,60 @@ nav {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  z-index: 99; }
-  nav .logo {
-    width: 92px;
-    height: 42px;
-    background-color: purple; }
-  nav .links a {
-    color: #ffffff;
-    text-decoration: none; }
-  nav .links span {
-    color: #ffffff;
-    margin: 0 20px; }
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  display: flex;
+  padding-top: 26px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+nav .logo span {
+  color: #ffffff;
+}
+nav .links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav .links span {
+  color: #ffffff;
+  margin: 0 20px;
+}
 
 .banner {
   max-width: 1280px;
   height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/yutoSB.jpeg);
-  background-image: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/banner@2x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: -80px auto 0 auto; }
+  margin: -80px auto 0 auto;
+}
 
 .form-content {
   max-width: 818px;
-  background-color: lightpink;
   min-height: 500px;
   margin: 0 auto;
-  margin-top: 20px; }
-  .form-content .top-boxes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .form-content .top-boxes .long-box {
-      width: 423px; }
-    .form-content .top-boxes .icon {
-      margin-right: 40px; }
-    .form-content .top-boxes input {
-      width: 344px;
-      height: 58px;
-      padding-left: 10px;
-      border: 3px solid #79addc; }
+  margin-top: 20px;
+}
+.form-content .top-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-content .top-boxes .long-box {
+  width: 423px;
+}
+.form-content .top-boxes .holder {
+  margin-right: 40px;
+}
+.form-content .top-boxes input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border: 3px solid #79addc;
+}
+
+/*# sourceMappingURL=styles.css.map */

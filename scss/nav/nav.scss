@@ -12,7 +12,15 @@ nav {
   .logo {
     width: 92px;
     height: 42px;
-    background-color: purple;
+
+    display: flex;
+    padding-top: 26px;
+    border-style: solid;
+    border-color: $site-white;
+    border-width: 2px;
+    span {
+      color: $site-white;
+    }
   }
 
   .links {

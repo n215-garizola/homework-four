@@ -2,11 +2,11 @@
   max-width: $banner-footer-width;
   height: $banner-height;
   background-image: linear-gradient(
-      rgba($site-black, 0.7),
-      rgba($site-black, 0.7)
+      rgba($site-black, 0.2),
+      rgba($site-black, 0.2)
     ),
-    url(../images/yutoSB.jpeg);
-  background-image: center;
+    url(../images/banner@2x.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   margin: -80px auto 0 auto;
