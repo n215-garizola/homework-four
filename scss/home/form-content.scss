@@ -4,14 +4,50 @@
   min-height: 500px;
   margin: $center;
   margin-top: 20px;
+  width: 90%;
+  margin-bottom: 75px;
+
+  .buttonForm {
+    max-width: 99%;
+    background-color: $site-blue;
+    width: 814px;
+    height: 60px;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .formTitle {
+    margin-top: 40px;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
 
   .top-boxes {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 
     .long-box {
       width: 423px;
+    }
+
+    .shortBox {
+      width: 100px;
+    }
+
+    .message {
+      width: 820px;
+      height: 190px;
+    }
+
+    .extraLongBox {
+      width: 700px;
     }
 
     .holder {

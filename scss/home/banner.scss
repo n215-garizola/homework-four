@@ -10,4 +10,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: -80px auto 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .bigWords {
+  }
+
+  .buttonBanner {
+    width: 121px;
+    height: 40px;
+    background-color: #79addc;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+
+  p {
+    font-size: 60px;
+    color: white;
+  }
 }

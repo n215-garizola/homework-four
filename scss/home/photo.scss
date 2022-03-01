@@ -1,0 +1,28 @@
+.photos {
+  max-width: 940px;
+  min-height: 300px;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+
+  .photo {
+    max-width: 300px;
+
+    img {
+      display: block;
+      width: 236px;
+      height: 304px;
+      repeat: no-repeat;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .photos {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+  }
+}
